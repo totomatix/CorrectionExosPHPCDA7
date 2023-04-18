@@ -8,16 +8,15 @@ $titre = "Exo 06 - Variables"; // Mettre le titre de la page
 $nom = "Marie";
 $age = 30;
 $homme = false;
-$sexe = $homme ? 'un homme' : 'une femme';
 
 $nom2 = "Pierre";
 $age2 = 32;
 $homme2 = true;
-$sexe2 = $homme2 ? 'un homme' : 'une femme';
 
-
-echo "$nom a $age et c'est $sexe <br>";
-echo $nom2.' a ' .$age2. ' et c\'est ' .$sexe2. '<br>';
+// personne 1
+echo $nom . ' a ' . $age . " ans et c'est " . ($homme ? 'un homme.' : 'une femme.') . '<br>';
+// personne 2
+echo $nom2 . ' a ' . $age2 . " ans et c'est " . ($homme2 ? 'un homme.' : 'une femme.');
 
 ?>
 
