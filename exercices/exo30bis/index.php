@@ -17,15 +17,7 @@ require_once './Joueur.php';
     
 
     <?php
-        $arme1 = new Arme("Hache", 17);
-        $arme2 = new Arme("Massue", 35);
-
-        $joueur1 = new Joueur("Toto", 4, 100, $arme1->getId());
-        $joueur2 = new Joueur("Riri", 6, 100, $arme2->getId());
-
-        $joueur1->afficherJoueur();
-        echo "=========================<br>";
-        $joueur2->afficherJoueur();
+        
 
     ?>
 
