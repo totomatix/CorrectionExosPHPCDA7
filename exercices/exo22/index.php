@@ -9,7 +9,7 @@ $titre = "Exo 22 - Formulaires"; // Mettre le titre de la page
 </form>
 
 <?php
-    // $nombre = '';
+    $nombre = '';
     if (isset($_POST['nombre'])) {
         $nombre = htmlentities($_POST['nombre']);
     }
