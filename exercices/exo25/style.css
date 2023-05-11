@@ -1,0 +1,9 @@
+div#container_flex {
+    display: flex;
+    flex-direction: row;
+}
+
+div#container_flex > div {
+    width: 45vw;
+}
+
