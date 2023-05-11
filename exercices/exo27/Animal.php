@@ -13,6 +13,15 @@ class Animal
         $this->age = $age;
         $this->type = $type;
     }
+
+    public function __toString()
+    {
+        $chaine = '';
+        $chaine .= "nom : " . $this->nom  . '<br>';
+        $chaine .= "âge : " . $this->age . '<br>';
+        $chaine .= "type : " . $this->type . '<br>';
+        return $chaine;
+    }
 }
 
 ?>

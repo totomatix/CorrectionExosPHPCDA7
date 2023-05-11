@@ -28,9 +28,7 @@ if (isset($_GET['type'])) {
 if (!empty($type)) {
     foreach ($animaux as $animal) {
         if ($type == 'tous' || $animal->type == $type ) {
-            echo "nom : " . $animal->nom  . '<br>';
-            echo "âge : " . $animal->age . '<br>';
-            echo "type : " . $animal->type . '<br>';
+            echo $animal;
             echo '================<br>';
         }
     }
