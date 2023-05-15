@@ -3,3 +3,7 @@
     flex-direction: row;
     align-items: center;
 }
+
+#flex-container > * {
+    padding : 10px;
+}
